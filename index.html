@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tobias Maksymowicz — Desarrollador de software</title>
+<meta name="description" content="Portfolio de Tobias Maksymowicz, estudiante de Ingeniería en Informática y desarrollador backend con C#, .NET y Node.js.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<meta property="og:title" content="Tobias Maksymowicz — Desarrollador Backend">
+<meta property="og:description" content="Estudiante de Ingeniería en Informática especializado en C#, .NET y arquitectura de software.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tobimak.github.io">
+<meta property="og:image" content="./og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tobias Maksymowicz",
+  "jobTitle": "Desarrollador Backend",
+  "url": "https://tobimak.github.io",
+  "email": "mailto:brunomak422@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/tobias-maksymowicz-986b88291/",
+    "https://github.com/tobimak"
+  ],
+  "skills": ["C#", ".NET", "Node.js", "SQL Server", "MongoDB"]
+}
+</script>
+</head>
+<body>
+
+<!-- reusable sparkle mark -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="spark" viewBox="0 0 100 100">
+    <path d="M50 0 C55 34 66 45 100 50 C66 55 55 66 50 100 C45 66 34 55 0 50 C34 45 45 34 50 0 Z"/>
+  </symbol>
+</svg>
+
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand">
+    <svg class="brand__spark" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+    <span>Tobias Maksymowicz</span>
+  </a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="site-nav" id="siteNav">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#stack">Stack</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#educacion">Educación</a>
+    <a href="#contacto" class="site-nav__cta">Contacto</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="hero__spark hero__spark--a" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+    <svg class="hero__spark hero__spark--b" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-anim>Buenos Aires, Argentina</p>
+      <h1 class="hero__name" data-anim>
+        <span class="line">Tobias</span>
+        <span class="line">Maksymowicz</span>
+      </h1>
+      <p class="hero__role" data-anim>Estudiante de Ingeniería en Informática — desarrollo sistemas reales con C#, .NET y buenas prácticas de arquitectura de software.</p>
+<div class="hero__actions" data-anim>
+  <a href="#proyectos" class="btn btn--fill">Ver proyectos</a>
+  <a href="#contacto" class="btn btn--line">Escribime</a>
+  <a href="Curriculum_Tobias_Maksymowicz.pdf" download="Curriculum_Tobias_Maksymowicz.pdf" class="btn btn--outline">
+    <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    CV
+  </a>
+</div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section" id="sobre-mi">
+    <div class="section__head">
+      <svg class="mark" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+      <h2>Sobre mí</h2>
+    </div>
+
+    <div class="about">
+      <p class="about__lead">
+        Curso Ingeniería en Informática en la UNAJ y me formé antes como Técnico Electromecánico,
+        así que estoy tan cómodo diseñando una arquitectura de software como armando y
+        diagnosticando el hardware sobre el que corre.
+      </p>
+      <p>
+        Mi trabajo se apoya en proyectos propios de escala real: sistemas de gestión con
+        microservicios, APIs RESTful y bases de datos relacionales y no relacionales, aplicando
+        Clean Architecture, Arquitectura Hexagonal y CQRS.
+      </p>
+
+      <dl class="about__facts">
+        <div>
+          <dt>Educación</dt>
+          <dd>Ingeniería en Informática, UNAJ — en curso</dd>
+        </div>
+        <div>
+          <dt>Base técnica</dt>
+          <dd>Técnico Electromecánico, ET N.º 3 "República de Italia" (2022)</dd>
+        </div>
+        <div>
+          <dt>Enfoque actual</dt>
+          <dd>Full stack, .NET, Node.js, arquitectura de software</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section section--alt" id="stack">
+    <div class="section__head">
+      <svg class="mark" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+      <h2>Stack técnico</h2>
+    </div>
+
+    <div class="stack">
+      <div class="stack__group">
+        <h3>Backend</h3>
+        <ul class="tags">
+          <li>C#</li><li>.NET Core</li><li>Python</li><li>Node.js</li><li>APIs RESTful</li>
+        </ul>
+      </div>
+      <div class="stack__group">
+        <h3>Frontend</h3>
+        <ul class="tags">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="stack__group">
+        <h3>Bases de datos</h3>
+        <ul class="tags">
+          <li>SQL Server</li><li>MySQL</li><li>MongoDB</li><li>Cassandra</li>
+        </ul>
+      </div>
+      <div class="stack__group">
+        <h3>Arquitectura</h3>
+        <ul class="tags">
+          <li>Clean Architecture</li><li>Arquitectura Hexagonal</li><li>CQRS</li><li>Code-First</li><li>CORS</li>
+        </ul>
+      </div>
+      <div class="stack__group">
+        <h3>Herramientas</h3>
+        <ul class="tags">
+          <li>Git</li><li>GitHub</li><li>Docker</li><li>Jira</li><li>Trello</li><li>Postman</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS / EXPERIENCIA -->
+<section class="section" id="proyectos">
+  <div class="section__head">
+    <svg class="mark" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+    <h2>proyectos</h2>
+  </div>
+  <p class="section__intro">
+    Proyectos pensados y construidos como sistemas de producción: resuelven un problema
+    de gestión concreto, de punta a punta.
+  </p>
+
+  <div class="projects">
+
+    <a href="https://daily-food-rose.vercel.app/" target="_blank" rel="noopener" class="project">
+      <div class="project__head">
+        <h3>Daily Food · MenuChef</h3>
+        <span class="project__tag">Actualmente</span>
+      </div>
+      <p>
+        Planificador semanal de menús con catálogo de recetas y algoritmo de selección
+        óptima, construido con Arquitectura Hexagonal y autenticación JWT para
+        separar reglas de negocio de infraestructura.
+      </p>
+      <p class="project__stack">C# · .NET 10 · EF Core · SQL Server · JWT · Hexagonal Architecture</p>
+    </a>
+
+    <a href="https://github.com/FastRestaurant" target="_blank" rel="noopener" class="project">
+      <div class="project__head">
+        <h3>Sistema de Gestión Gastronómica</h3>
+      </div>
+      <p>
+        Plataforma para la gestión de pedidos y stock de un negocio gastronómico, con
+        arquitectura de microservicios sobre Clean Architecture, concurrencia optimista
+        y patrón Repository + CQRS.
+      </p>
+      <p class="project__stack">.NET 8 · Blazor WebAssembly · APIs RESTful · SQL Server · EF Core · SignalR · JWT</p>
+    </a>
+
+    <a href="https://github.com/ComplejoDeportivoUNAJ" target="_blank" rel="noopener" class="project">
+      <div class="project__head">
+        <h3>Alquiler de Canchas de Fútbol</h3>
+      </div>
+      <p>
+        Plataforma de reservas online para complejos deportivos, construida con Arquitectura
+        Hexagonal para separar reglas de negocio de infraestructura y facilitar el testing.
+      </p>
+      <p class="project__stack">C# · .NET 10 · APIs RESTful · PostgreSQL · Docker</p>
+    </a>
+
+    <a href="https://github.com/tobimak/Ordenamiento_Arbol_BK" target="_blank" rel="noopener" class="project">
+      <div class="project__head">
+        <h3>Búsqueda inteligente por árboles</h3>
+      </div>
+      <p>
+        Motor de búsqueda eficiente construido sobre estructuras de árboles, enfocado en
+        análisis de algoritmos y complejidad temporal.
+      </p>
+      <p class="project__stack">C#</p>
+    </a>
+
+    <a href="" target="_blank" rel="noopener" class="project project--muted">
+      <div class="project__head">
+        <h3>Soporte técnico e infraestructura</h3>
+      </div>
+      <p>
+        Instalación de cámaras de seguridad y armado, mantenimiento y diagnóstico de PCs —
+        la base de hardware que sostiene todo lo anterior.
+      </p>
+    </a>
+
+  </div>
+</section>
+
+  <!-- EDUCACION -->
+  <section class="section section--alt" id="educacion">
+    <div class="section__head">
+      <svg class="mark" viewBox="0 0 100 100"><use href="#spark" xlink:href="#spark"/></svg>
+      <h2>Educación</h2>
+    </div>
+
+    <ul class="timeline">
+      <li>
+        <h3>Ingeniería en Informática</h3>
+        <p>Universidad Nacional Arturo Jauretche (UNAJ) — en curso</p>
+      </li>
+      <li>
+        <h3>Técnico Electromecánico</h3>
+        <p>Escuela Técnica N.º 3 "República de Italia" — 2022</p>
+      </li>
+    </ul>
+
+    <div class="competencies">
+      <span>Comunicación efectiva</span>
+      <span>Atención al detalle</span>
+      <span>Resiliencia y dedicación</span>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACTO -->
+<footer class="contact" id="contacto">
+  <svg class="contact__spark" viewBox="0 0 100 100"><use href="#spark"/></svg>
+  
+  <h2>Trabajemos juntos</h2>
+  <p>Buscando dar el salto a un rol de desarrollo backend o full stack. Si tenés algo en mente, escribime.</p>
+
+  <div class="contact__links">
+    <button type="button" class="contact__link contact__copy-btn" data-email="brunomak422@gmail.com" aria-label="Copiar email al portapapeles">
+      <i class="fas fa-envelope contact__icon"></i>
+      <span class="contact__label">Email</span>
+    </button>
+
+    <a href="https://www.linkedin.com/in/tobias-maksymowicz-986b88291/" target="_blank" rel="noopener" class="contact__link">
+      <i class="fab fa-linkedin contact__icon"></i>
+      <span class="contact__label">LinkedIn</span>
+    </a>
+
+    <a href="https://github.com/tobimak" target="_blank" rel="noopener" class="contact__link">
+      <i class="fab fa-github contact__icon"></i>
+      <span class="contact__label">GitHub</span>
+    </a>
+  </div>
+
+  <!-- Toast notification (Solo uno) -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span>Mail copiado</span>
+  </div>
+
+  <p class="contact__copy">© <span id="year"></span> Tobias Maksymowicz</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
